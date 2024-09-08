@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Corrida Contra o Tempo</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="vestibular.png" alt="">
+            <p>Você está se preparando para o vestibular dos seus sonhos. Cada decisão que você tomar agora pode mudar o seu futuro. A data do vestibular está se aproximando rapidamente, e você precisa decidir como aproveitar seu tempo.</p>
+            <button class="btn-proximo" data-proximo="1">Estudar agora</button>
+            <button class="btn-proximo" data-proximo="2">Deixar para depois</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide mergulhar nos estudos. Nos próximos dias, você se dedica a revisar todas as matérias, fazer exercícios e resolver provas anteriores. Cada dia de estudo fortalece seu conhecimento e aumenta sua confiança.</p>
+            <button class="btn-proximo" data-proximo="2">Descansar</button>
+            <button class="btn-proximo" data-proximo="3">Continuar estudando</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide deixar o estudo para depois e passa os dias relaxando e ocupando seu tempo com outras atividades. Sempre que você pensa em estudar, acaba adiando para o dia seguinte.</p>
+            <button class="btn-proximo" data-proximo="4">Continuar descansando</button>
+            <button class="btn-proximo" data-proximo="1">Estudar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Com o tempo bem aproveitado, você se sente preparado e menos ansioso para o dia do vestibular. Quando chega o grande dia, você faz a prova com confiança e clareza, e recebe a notícia de que foi aceito na universidade dos seus sonhos!</p>
+            <button class="btn-proximo" data-proximo="6">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Dia 1: Você relaxa e assiste a uma série na TV.</p>
+
+                <p>  Dia 2: Você sai com amigos e promete estudar à noite, mas acaba cansado e vai dormir.</p>
+                
+                    <p> Dia 3: Você acha que pode começar a estudar mais tarde e decide adiar mais uma vez.</p>
+                
+                        <p> Dia 4: A data do vestibular está se aproximando e você começa a sentir a pressão. Você tenta começar a estudar de forma acelerada, mas percebe que o tempo é curto e não conseguiu cobrir todo o material.</p>
+                <button class="btn-proximo" data-proximo="5">Continuar</button>
+            </div>
+
+        <div class="passo" id="passo-5">
+            <img src="reprovado.png" alt="">
+            <p>No dia do vestibular, você se sente despreparado e ansioso. A prova é mais difícil do que você esperava e você não consegue responder a todas as questões com confiança. No final, você descobre que não passou.
+
+            </p>
+            <button class="btn-proximo" data-proximo="0">Tentar mais um ano</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="aprovacao.png" alt="">
+            <p>Parabéns! Você recebeu o email da faculdade e foi aceito. Aproveite e se dedique nessa nova fase da sua vida.</p>
+            <button class="btn-proximo" data-proximo="7">Fim</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
